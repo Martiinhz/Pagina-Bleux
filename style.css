@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    background-color: #1f172e;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    padding: 8px;
+    color: grey
+}
+
+li:hover{
+    color: white;
+}
+
+.button1{
+  margin: 10px;
+  border: 0;
+  align-items: center;
+  background-image: linear-gradient(
+    150deg,
+    #9500ff,
+    #09f,
+    #00ddff
+  );
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  padding: 10px 13px;
+  cursor: pointer;
+}
+
+.button1:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.cajali{
+    display: flex;
+}
+
+.s1{
+    display: flex;
+    height: 800px;
+}
+
+.cajaProduc{
+    width: 50%;
+    background-color: #2e2550;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+}
+
+.cajaimgHoja{
+    background-image:url(/images/hojasFondo.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+
+.cajaimgHoja img{
+    width: 25vh;
+    margin: 167px 0px 0px 232px ;
+}
+
+.cajaProduc h1{
+    color: white;
+    font-size: 80px;
+    width: 340px;
+    padding-bottom: 20px;
+}
+
+.cajaProduc p{
+    color: white;
+    font-size: 20px;
+    padding-left: 308px;
+    padding-bottom: 20px;
+   
+}
+
+.botones button{
+    border: solid rgb(255, 255, 255) 3px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #2e2550;
+    border-radius: 5px;
+}
+
+.b1{
+    margin-right: 5px;
+}
+
+.botones{
+    border: solid grey 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.botones button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #f41184;
+}
+
+.s2{
+    background-color: #f0f3f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.s2 h1{
+    text-align: center;
+    font-size: 60px;
+    color: #f41184;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.info-lap{
+    width: 40%;
+    margin-left: 200px;
+}
+
+.cajalaptop{
+    display: flex;
+}
+
+
+.cajalaptop img{
+    width: 80vh;
+}
+
+.cajalap2{
+    width: 40%;
+    padding-left: 60px;
+}
+
+.cajalap2 h2{
+    color: #be4184;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.cajalap2 p{
+    color:grey;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.cajalap2 h3{
+    color: #f00083;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.cajalaptop .chulito{
+   width: 20px;
+}
+
+.s3{
+    background-color: #2e2550;
+    padding: 40px 0px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.s3 p{
+    color: white;
+    text-align: center;
+    padding: 6px 0px;
+}
+
+.c123{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c123 p{
+    color:grey;
+}
+
+.c123 img{
+    padding-right: 20px;
+}
+
+.c1{
+    background-color: white;
+    width: 15%; 
+}
+
+.info-arriba{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-arriba h1{
+    color: #f00083;
+    padding: 10px;
+}
+
+.precio{
+    background-color: rgb(235, 235, 235);
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alinear{
+    display: flex;
+    padding-left: 40px;
+}
+
+.b2{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(235, 235, 235);
+   padding: 10px;
+}
+
+.b2 button{
+    margin: 10px;
+    border: 0;
+    align-items: center;
+    background-image: linear-gradient(
+      20deg,
+      #e887b9,
+      #f00083
+    );
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    padding: 10px 13px;
+    cursor: pointer;
+}
+
+.c2{
+    background-color: white;
+    width: 15%; 
+}
+
+.b3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+ }
+
+ .b3 button{
+    margin: 10px;
+    border: 0;
+    align-items: center;
+    background-image: linear-gradient(
+      20deg,
+      #2e2550,
+      #2e2550
+    );
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    padding: 10px 13px;
+    cursor: pointer;
+ }
+
+.info-arriba h1{
+    color: #2e2550;
+}
+
+
+.c3{
+    background-color: white;
+    width: 15%; 
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.social{
+    padding-right: 5px;
+}
+
+footer b{
+    color: #f00083;
+}
+
+@media(max-width:1279px){
+
+    .s1{
+        height: 600px;
+    }
+
+    .cajaProduc p {
+        padding-left: 30px;
+    }
+
+    .cajaProduc{
+        padding-top: 100px;
+    }
+
+    .cajaimgHoja img{
+        margin: 170px 0px 0px 168px;
+    }
+
+    .info-lap{
+        margin-left: 0;
+    }
+
+    .cajalap2{
+        width: 60%;
+        padding-left: 129px;
+    }
+
+    .c1{
+        width: 28%;
+    }
+
+    .c2{
+        width: 28%;
+    }
+
+    .c3{
+        width: 28%;
+    }
+}
+
+@media(max-width:920px){
+    
+    .cajaimgHoja img{
+        margin: 170px 0px 0px 121px
+    }
+
+    .cajalaptop img{
+        width: 72vh;
+        ;
+    }
+
+    .cajalap2 h2{
+        
+    font-size: 42px;
+    }
+
+    .s2 h1{
+        padding: 40px;
+    }
+
+    .cajalap2 p{
+        font-size: 17px;
+        padding-bottom: 10px;
+   
+    }
+
+    .c1{
+        width: 32%;
+    }
+
+    .c2{
+        width: 32%;
+    }
+
+    .c3{
+        width: 32%;
+    }
+}
+@media(max-width:768px){
+
+    .cajaimgHoja img{
+        margin: 167px 0px 0px 55px;
+    }
+
+    .button1{
+        font-size: 12px;
+    }
+
+    .cajaProduc h1{
+        font-size: 54px;
+        width: 190px;
+    }
+
+    .cajaProduc p{
+        padding-left: 16px;
+    }
+
+    .botones button{
+        padding: 0px;
+    }
+
+    .cajalaptop img{
+        width: 38vh;
+    }
+
+    .s2 h1{
+        font-size: 52px;
+    }
+
+    .info-lap{
+        width: 28%;
+       padding-top: 55px;
+    }
+
+    .cajalap2{
+        width: 71%;
+        padding-left: 106px;
+    }
+
+    .cajalap2 h2{
+        font-size: 27px;
+    }
+
+    .cajalap2 p{
+        font-size: 15px;
+    }
+
+    .cajalap2 h3{
+        font-size: 22px;
+    }
+
+    .c123{
+        display: block;
+    }
+
+    .c1{
+        width: 58%;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        margin-top:20px;
+    }
+
+    .c2{
+        width: 58%;
+        margin-left: 100px;
+        
+    }
+
+    .c3{
+        width: 58%;
+        margin-left: 100px;
+        margin-bottom: 40px;
+    }
+
+    .logos{
+        display: flex;
+        padding-right: 10px;
+        align-items: center;
+    }
+
+    .social{
+        padding-right: 5px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    header{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+
+    .cajaimgHoja{
+        display: none;
+    }
+
+    .cajaProduc{
+        width: 100%;
+        padding-top: 48px;
+    }
+
+    .s1{
+        height: 450px;
+    }
+
+    .botones button{
+        padding: 10px;
+    }
+
+    .s2 h1{
+        font-size: 44px;
+    }
+
+    .info-lap{
+        display: none;
+    }
+
+    .cajalap2{
+        width: 101%;
+        padding-left: 75px;
+        padding-bottom: 30px;
+    }
+
+    .c1{
+        width: 80%;
+        margin-left: 36px;
+        margin-bottom: 40px;
+        margin-top:20px;
+    }
+
+    .c2{
+        width: 80%;
+        margin-left: 36px;
+        
+    }
+
+    .c3{
+        width: 80%;
+        margin-left: 36px;
+        margin-bottom: 40px;
+    }
+
+    .logos{
+        padding-right: 10px;
+    }
+}
+
+
+

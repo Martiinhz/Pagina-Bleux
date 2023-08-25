@@ -67,7 +67,7 @@ li:hover{
 }
 
 .cajaimgHoja{
-    background-image:url(/images/hojasFondo.jpg);
+    background-image:url(images/hojasFondo.jpg);
     width: 50%;
     height: 100%;
     background-size: cover;
